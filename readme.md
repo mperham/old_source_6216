@@ -4,6 +4,6 @@
 multiple versions simply by bumping the version in the gemspec and
 running `gem build foobar.gemspec`.
 
-1. Run `gem generate_index --directory ./gems`
+1. Run `rake gen`
 2. In another terminal, run `rake s` to serve the gems via localhost.
 3. Run `bundle`.
